@@ -1,4 +1,5 @@
-package pro.jeong.molithackathon2018.data.indexer;
+package pro.jeong.molithackathon2018.data.indexer.by;
+import pro.jeong.molithackathon2018.data.indexer.SQLStatementCreator;
 import pro.jeong.molithackathon2018.utils.Creators;
 import pro.jeong.molithackathon2018.utils.Utilities;
 
@@ -6,25 +7,28 @@ import java.io.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Set;
 
 public class ByBusIndexer implements ByMethodIndexer {
     private File indexOnRoot = null;
 
-    private ArrayList<String> indexOnDates = new ArrayList<>();
+    private String targetYear = "17";
+    private String targetMonth = "08";
+    private String targetDay = "01";
+
     // SHARED
     private HashMap<String, ArrayList<String>> sharedBusIDMap = new HashMap<>();
     private File BusID_FileLocation = new File("Index/MappedBusID.csv");
     static int uniqueBusCounter = 0;
     //
 
-    private final String databaseUrlBase = "jdbc:sqlite:" + indexFolder + "BBUS/";
+    private final String databaseUrlBase = "jdbc:sqlite:" + indexOutputRoot + "BBUS/";
 
-    public ByBusIndexer(File indexOn, ArrayList<String> indexOnDates) {
+    public ByBusIndexer(File indexOn, String[] date) {
         super();
+        this.targetYear = date[0];
+        this.targetMonth = date[1];
+        this.targetDay = date[2];
         indexOnRoot = indexOn;
-        this.indexOnDates = indexOnDates;
 
         System.out.println("Indexing by bus");
 
@@ -42,8 +46,8 @@ public class ByBusIndexer implements ByMethodIndexer {
     }
 
     private void checkIndexFolder() {
-        if(!new File(indexFolder + "BBUS/").exists()) {
-            new File(indexFolder + "BBUS/").mkdir();
+        if(!new File(indexOutputRoot + "BBUS/").exists()) {
+            new File(indexOutputRoot + "BBUS/").mkdir();
         }
     }
 
@@ -112,7 +116,7 @@ public class ByBusIndexer implements ByMethodIndexer {
              */
             //retArr.addAll(Utilities.listEndPointDirectories(new File("J:/BusData/17/0801")));
             //retArr.addAll(Utilities.listEndPointDirectories(new File("J:/BusData/17/0802")));
-            retArr = Utilities.listEndPointDirectories("J:/busData/17/0802");
+            retArr = Utilities.listEndPointDirectories("J:/busData/17/0801");
         } catch(Exception e) {
             e.printStackTrace();
         }
@@ -188,6 +192,7 @@ public class ByBusIndexer implements ByMethodIndexer {
                     " =======================================");
 
             int lineCount = 0;
+            int newBusCount = 0;
             HashMap<String, ArrayList<String>> busID_individual = new HashMap<>();
 
             for(int i = 0; i < fileOnMemoryPrimitive.length; i++) {
@@ -195,7 +200,7 @@ public class ByBusIndexer implements ByMethodIndexer {
                 String filePath = workOnFile.getAbsolutePath();
                 if(!busID_individual.containsKey(busIDtoLookUp)) { // If an individual hashmap does not contain this busID.
                     String busIDtoAppend = busIDtoLookUp;
-                    System.out.println("Found new bus to append : " + busIDtoAppend);
+                    //System.out.println("Found new bus to append : " + busIDtoAppend);
 
                     ArrayList<String> initArrayList = new ArrayList<>();
                     initArrayList.add(filePath + "|" + lineCount);
@@ -203,10 +208,13 @@ public class ByBusIndexer implements ByMethodIndexer {
                     busID_individual.put(busIDtoAppend, initArrayList);
 
                     lineCount++;
+                    newBusCount++;
                 } else {
                     lineCount++;
                 }
-                System.out.println("File : " + workOnFile.getName() + "   Line : " + lineCount);
+                if(lineCount % 1000000 == 0) {
+                    System.out.println("File : " + workOnFile.getName() + "  New Bus Count : " + newBusCount +  "  Completion : ~about " + lineCount / 100000 + "%");
+                }
             }
             saveIndividualFile(busID_individual);
         }
