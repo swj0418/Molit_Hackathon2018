@@ -27,4 +27,50 @@ public class Utilities {
         }
         return split;
     }
+
+    public static int findMinimum(ArrayList<Integer> list) {
+        int min = 0;
+        min = list.get(0);
+        for(int i = 0; i < list.size(); i++) {
+            if(list.get(i) < min) {
+                min = list.get(i);
+            }
+        }
+        return  min;
+    }
+
+    public static int findMaximum(ArrayList<Integer> list) {
+        int max = 0;
+        max = list.get(0);
+        for(int i = 0; i < list.size(); i++) {
+            if(list.get(i) > max) {
+                max = list.get(i);
+            }
+        }
+        return  max;
+    }
+
+    private int findMinimum(ArrayList<String> list, int k) {
+        int min = 0;
+        min = Integer.parseInt(list.get(0));
+        for(int i = 0; i < list.size(); i++) {
+            int tmp = Integer.parseInt(list.get(i));
+            if(tmp < min) {
+                min = tmp;
+            }
+        }
+        return  min;
+    }
+
+    private int findMaximum(ArrayList<String> list, int k) {
+        int max = 0;
+        max = Integer.parseInt(list.get(0));
+        for(int i = 0; i < list.size(); i++) {
+            int tmp = Integer.parseInt(list.get(i));
+            if(tmp > max) {
+                max = tmp;
+            }
+        }
+        return  max;
+    }
 }

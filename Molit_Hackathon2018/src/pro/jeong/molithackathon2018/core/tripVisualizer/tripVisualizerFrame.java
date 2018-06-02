@@ -13,21 +13,20 @@ public class tripVisualizerFrame extends JFrame {
 
     tripVisualizerFrame(tripVisualizerPanel panel) {
         this.panel = panel;
-        setSize(new Dimension(1000, 1000));
+        setSize(new Dimension(panel.getWidth(), panel.getHeight()));
         setLayout(new BorderLayout());
 
 
         add(panel, BorderLayout.CENTER);
         BufferedImage image = getScreenShot(panel); // Takes a screen shot.
         saveImageToFile(image);
-        System.out.println(image.getWidth() + "   " + image.getHeight());
 
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-    private static void saveImageToFile(BufferedImage image) {
-        File outputFile = new File(new Date().getTime() + "_Img.jpeg");
+    private void saveImageToFile(BufferedImage image) {
+        File outputFile = new File(panel.bus.getTripID() + "_Img.jpeg");
         try {
             ImageIO.write(image, "jpeg", outputFile);
         } catch(IOException e) {
@@ -36,8 +35,8 @@ public class tripVisualizerFrame extends JFrame {
 
     }
 
-    private static BufferedImage getScreenShot(Component component) {
-        BufferedImage image = new BufferedImage(1000, 1000, BufferedImage.TYPE_INT_RGB);
+    private BufferedImage getScreenShot(Component component) {
+        BufferedImage image = new BufferedImage(panel.getWidth(), panel.getHeight(), BufferedImage.TYPE_INT_RGB);
         // paints into image's Graphics
         image.getGraphics().drawImage(image, 0, 0, Color.BLACK, null);
         component.paint(image.getGraphics());
