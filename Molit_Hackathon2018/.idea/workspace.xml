@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Molit_Hackathon2018:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d99eadba-c52a-4189-a53f-162d2796d62e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/Indexer.java">
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+            <state relative-caret-position="374">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusParserI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="157" column="33" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,66 +38,108 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ByRegionIndexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByRegionIndexer.java">
+      <file leaf-file-name="tripVisualizerPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="527">
+              <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#395#408#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ByBusIndexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java">
+      <file leaf-file-name="tripVisualizerFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="67" column="33" selection-end-line="153" />
+            <state relative-caret-position="256">
+              <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusLocation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/BusLocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BusParserITest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+              <folding>
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1414#1415#0" expanded="true" />
+                <element signature="e#1456#1457#0" expanded="true" />
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1559#1560#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1704#1705#0" expanded="true" />
+                <element signature="e#1734#1735#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1794#1795#0" expanded="true" />
+                <element signature="e#1830#1831#0" expanded="true" />
+                <element signature="e#1862#1863#0" expanded="true" />
+                <element signature="e#1897#1898#0" expanded="true" />
+                <element signature="e#1928#1929#0" expanded="true" />
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
+                <element signature="e#2055#2056#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+                <element signature="e#2146#2147#0" expanded="true" />
+                <element signature="e#2177#2178#0" expanded="true" />
+                <element signature="e#2218#2219#0" expanded="true" />
                 <element signature="e#2244#2245#0" expanded="true" />
-                <element signature="e#2296#2297#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SequentialIndexTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/SequentialIndexTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index_by_obsolete" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1955">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexingTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/IndexingTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="138" selection-start-line="12" selection-start-column="138" selection-end-line="12" selection-end-column="138" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexMerger.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/IndexMerger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="62" column="84" lean-forward="true" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2293#2294#0" expanded="true" />
+                <element signature="e#2327#2328#0" expanded="true" />
+                <element signature="e#2384#2385#0" expanded="true" />
+                <element signature="e#2415#2416#0" expanded="true" />
+                <element signature="e#1544#1545#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1640#1641#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="e#1748#1749#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
+                <element signature="e#1842#1843#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+                <element signature="e#1922#1923#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#2006#2007#0" expanded="true" />
+                <element signature="e#2048#2049#0" expanded="true" />
+                <element signature="e#2096#2097#0" expanded="true" />
+                <element signature="e#2136#2137#0" expanded="true" />
+                <element signature="e#2196#2197#0" expanded="true" />
+                <element signature="e#2248#2249#0" expanded="true" />
+                <element signature="e#2451#2452#0" expanded="true" />
+                <element signature="e#2491#2492#0" expanded="true" />
+                <element signature="e#2540#2541#0" expanded="true" />
+                <element signature="e#2570#2571#0" expanded="true" />
+                <element signature="e#2635#2636#0" expanded="true" />
+                <element signature="e#2681#2682#0" expanded="true" />
+                <element signature="e#2751#2752#0" expanded="true" />
+                <element signature="e#2791#2792#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,18 +151,16 @@
             <state>
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2341#2342#0" expanded="true" />
-                <element signature="e#2393#2394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
+      <file leaf-file-name="IndexManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/IndexManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+            <state relative-caret-position="678">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,14 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ByMethodIndexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByMethodIndexer.java">
+      <file leaf-file-name="BusParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="142">
+              <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -153,8 +204,6 @@
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/TimeCreatorTest.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Generators.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/BusParser.java" />
@@ -163,22 +212,28 @@
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datasaver/BusDataSaver.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/DataReader.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/ByMethodIndexer.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatmentCreator.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/scratchTmp" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/ByBusIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/extendingTime" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByMethodIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/Indexer.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/indexMerger.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/IndexingTask.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/Indexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/IndexMerger.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/IndexManager.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" />
       </list>
     </option>
   </component>
@@ -188,9 +243,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="527" />
-    <option name="y" value="-16" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-21" />
+    <option name="y" value="-10" />
     <option name="width" value="1932" />
     <option name="height" value="1085" />
   </component>
@@ -199,17 +254,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Molit_Hackathon2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Molit_Hackathon2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
@@ -236,6 +288,14 @@
               <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="indexing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Molit_Hackathon2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="tripVisualizer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
@@ -319,8 +379,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,9 +387,10 @@
     <property name="last_opened_file_path" value="I:/Storage/2018_Spring_F/Programming/Java/Tools" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -345,7 +404,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IndexingTask">
+  <component name="RunManager" selected="Application.BusParserITest">
+    <configuration name="BusParserITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.BusParserITest" />
+      <module name="Molit_Hackathon2018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.jeong.molithackathon2018.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="BusParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.BusParserTest" />
       <module name="Molit_Hackathon2018" />
@@ -375,17 +445,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pro.jeong.molithackathon2018.core.indexing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TimeCreatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.TimeCreatorTest" />
-      <module name="Molit_Hackathon2018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pro.jeong.molithackathon2018.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,16 +505,16 @@
       <item itemvalue="Application.DatasetRearranger" />
       <item itemvalue="Application.BusParserTest" />
       <item itemvalue="Application.VisualizerTest" />
-      <item itemvalue="Application.TimeCreatorTest" />
       <item itemvalue="Application.IndexingTask" />
+      <item itemvalue="Application.BusParserITest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BusParserITest" />
         <item itemvalue="Application.IndexingTask" />
         <item itemvalue="Application.VisualizerTest" />
         <item itemvalue="Application.BusParserTest" />
         <item itemvalue="Application.DatasetRearranger" />
-        <item itemvalue="Application.TimeCreatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -473,15 +532,18 @@
       <workItem from="1527389796297" duration="22195000" />
       <workItem from="1527485858566" duration="23841000" />
       <workItem from="1527556855921" duration="16662000" />
-      <workItem from="1527627334662" duration="13855000" />
+      <workItem from="1527627334662" duration="15385000" />
+      <workItem from="1527742891530" duration="4830000" />
+      <workItem from="1527835131213" duration="722000" />
+      <workItem from="1527922584728" duration="9818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79670000" />
+    <option name="totallyTimeSpent" value="96570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -494,12 +556,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3343527" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4648318" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2484375" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.1559633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -511,7 +574,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,20 +584,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Creators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -571,9 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,9 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -600,8 +646,6 @@
           <caret line="145" column="21" lean-forward="true" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2296#2297#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -641,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -671,16 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,16 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,44 +734,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/CreateBufferedReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Generators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/frags/DatasetRearranger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -764,96 +744,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1275#1276#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/BusLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/DataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datasaver/BusDataSaver.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Creators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index/BBUS/part-r-00199.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusTypeIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByCompanyIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/TimeCreatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -888,42 +779,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/SequentialIndexTask.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusTypeIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByCompanyIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="67" column="33" selection-end-line="153" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2296#2297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByMethodIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/Indexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -934,10 +807,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByMethodIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/IndexingTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/Indexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/SequentialIndexTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/IndexMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Generators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Creators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -949,35 +904,137 @@
         <state>
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2341#2342#0" expanded="true" />
-            <element signature="e#2393#2394#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1955">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="374">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/IndexingTask.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/IndexManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="138" selection-start-line="12" selection-start-column="138" selection-end-line="12" selection-end-column="138" />
+        <state relative-caret-position="678">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/IndexMerger.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/BusLocation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="62" column="84" lean-forward="true" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
+          <folding>
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+            <element signature="e#1928#1929#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#2055#2056#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2177#2178#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2415#2416#0" expanded="true" />
+            <element signature="e#1544#1545#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
+            <element signature="e#2451#2452#0" expanded="true" />
+            <element signature="e#2491#2492#0" expanded="true" />
+            <element signature="e#2540#2541#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2635#2636#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2751#2752#0" expanded="true" />
+            <element signature="e#2791#2792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="157" column="33" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#395#408#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -988,10 +1045,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Molit_Hackathon2018:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

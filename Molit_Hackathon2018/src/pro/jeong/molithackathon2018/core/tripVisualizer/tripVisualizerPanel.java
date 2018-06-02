@@ -1,55 +1,43 @@
 package pro.jeong.molithackathon2018.core.tripVisualizer;
 
 import pro.jeong.molithackathon2018.data.datatype.Bus;
-import pro.jeong.molithackathon2018.utils.Generators;
+import pro.jeong.molithackathon2018.data.datatype.BusLocation;
 
 import javax.swing.*;
-import javax.xml.stream.Location;
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.lang.Math.*;
 import java.util.Set;
 
 public class tripVisualizerPanel extends JPanel {
     Bus bus = null;
-    ArrayList<String> timeLine = new ArrayList<>();
+    ArrayList<BusLocation> busLocations = new ArrayList<BusLocation>();
     tripVisualizerPanel(Bus bus) {
         this.bus = bus;
-        //timeLine = Generators.generateTime("15300300", "17300000");
-        Set<String> timeAvailable = this.bus.getBusLocation().keySet();
-        for(String str : timeAvailable) {
-            timeLine.add(str);
+        busLocations = bus.getBusLocation();
+        for(int i = 0; i < busLocations.size(); i++) {
+            //System.out.println(busLocations.get(i).getX() + "   " + busLocations.get(i).getY() + "     at time : " + busLocations.get(i).getTime());
         }
         // 000000000
-        setSize(new Dimension(10000, 10000));
+        setSize(new Dimension(1000, 1000));
     }
 
-    public void paint(Graphics g) {
-        super.paintComponent(g);
+    public void paint(Graphics g1) {
+        super.paintComponent(g1);
+        Graphics2D g = (Graphics2D)g1;
         g.setColor(Color.BLACK);
-        for(int i = 0; i < timeLine.size(); i++) {
-            //String toGet = "170801" + timeLine.get(i);
-            String toGet = timeLine.get(i);
-            //int x = Integer.parseInt(bus.getBusX(toGet).substring(6));
-            int x = logTransformLocation(bus.getBusX(toGet));
-            //int y = Integer.parseInt(bus.getBusY(toGet).substring(6));
-            int y = logTransformLocation(bus.getBusY(toGet));
+        for(int i = 0; i < busLocations.size(); i++) {
+            int x = TransformLocation(bus.getBusX(i));
+            int y = TransformLocation(bus.getBusY(i));
             System.out.println(x + "          " + y);
-            g.fillOval(x, y, 10, 10);
+            g.fillOval(x, y, 1, 1);
         }
     }
 
-    private int logTransformLocation(String loc) {
-        double location = (double)Integer.valueOf(loc.substring(3));
-        location = location / 200;
-        location = Math.ceil(location);
+    private int TransformLocation(String loc) {
+        double location = (double)Integer.valueOf(loc);
+        //location = location / 2000;
+        //location = Math.ceil(location);
         int retInt = (int)location;
-        return retInt;
-    }
-
-    private int transformLocation(String loc) {
-        int retInt = Integer.valueOf(loc.substring(5));
         return retInt;
     }
 }

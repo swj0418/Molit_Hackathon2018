@@ -1,5 +1,6 @@
 package pro.jeong.molithackathon2018.data.indexer.by;
 import pro.jeong.molithackathon2018.data.indexer.SQLStatementCreator;
+import pro.jeong.molithackathon2018.data.indexer.task.IndexMerger;
 import pro.jeong.molithackathon2018.utils.Creators;
 import pro.jeong.molithackathon2018.utils.Utilities;
 
@@ -71,6 +72,8 @@ public class ByTripIDIndexer extends ByMethodIndexer {
     public void startIndexing() {
         System.out.println("Starting indexing on root directory : " + indexOnRoot);
         sequentialIndexing();
+        IndexMerger merger = new IndexMerger(indexOutputRoot + methodName + "/" + this.targetYear + "/" + this.targetMonth + this.targetDay, methodName);
+        merger.startMerger();
     }
 
     class SequentialTask {

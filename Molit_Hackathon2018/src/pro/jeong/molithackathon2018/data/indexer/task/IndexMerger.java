@@ -48,6 +48,7 @@ public class IndexMerger {
             BufferedReader reader = Creators.createBufferedReader(file.getAbsolutePath(), "UTF-8");
 
             String line = "";
+            System.out.println(file.getName());
             try {
                 while((line = reader.readLine()) != null) {
                     String[] split = line.split(",");
@@ -59,13 +60,30 @@ public class IndexMerger {
                     } else {
                         anchorID_fileLineMap.get(split[0]).put(split[1], Integer.parseInt(split[2]));
                     }
-                    System.out.println("======= " + split[0] + " =======");
-                    System.out.println(anchorID_fileLineMap.get(split[0]).keySet());
-                    System.out.println(anchorID_fileLineMap.get(split[0]).get(anchorID_fileLineMap.get(split[0]).keySet().toArray()[0]));
+                    //System.out.println("======= " + split[0] + " =======");
+                    //System.out.println(anchorID_fileLineMap.get(split[0]).keySet());
+                    //System.out.println(anchorID_fileLineMap.get(split[0]).get(anchorID_fileLineMap.get(split[0]).keySet().toArray()[0]));
                 }
+                file.delete();
             } catch(IOException e) {
                 e.printStackTrace();
             }
+        }
+
+        BufferedWriter writer = null;
+        try {
+            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File(separateIndexContainingDirectoryToMerge + "/Index.csv")), "UTF-8"));
+            for(int i = 0; i < anchorIDList.size(); i++) {
+                String tripID = anchorIDList.get(i);
+                writer.write(tripID + ",");
+                HashMap<String, Integer> mapToWrite = anchorID_fileLineMap.get(tripID);
+                writer.write(mapToWrite.keySet().toArray()[0] + "," + mapToWrite.get(mapToWrite.keySet().toArray()[0]).toString());
+                writer.write("\n");
+                writer.flush();
+            }
+            writer.close();
+        } catch(IOException e) {
+            e.printStackTrace();
         }
     }
 

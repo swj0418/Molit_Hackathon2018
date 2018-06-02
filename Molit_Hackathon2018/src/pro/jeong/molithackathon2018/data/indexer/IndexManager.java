@@ -2,21 +2,19 @@ package pro.jeong.molithackathon2018.data.indexer;
 
 import pro.jeong.molithackathon2018.data.indexer.by.ByBusIndexer;
 import pro.jeong.molithackathon2018.data.indexer.by.ByTripIDIndexer;
+import static pro.jeong.molithackathon2018.utils.Utilities.parseDate;
 
 import java.io.File;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Scanner;
 
-public class Indexer {
+
+public class IndexManager {
     public static enum DataSortingMethod {BY_BUS, BY_REGION, BY_BUS_TYPE, BY_TRIP_ID}
     String directoryPath = "./Index/";
     DataSortingMethod methodToPerform = null;
     File indexOn = null;
     String rawDate = "";
 
-    public Indexer(File indexOn, DataSortingMethod method, String date) {
+    public IndexManager(File indexOn, DataSortingMethod method, String date) {
         this.rawDate = date;
         this.indexOn = indexOn;
 
@@ -72,7 +70,7 @@ public class Indexer {
     }
 
     private void indexByBus() {
-        String[] date = parseDate();
+        String[] date = parseDate(rawDate);
         ByBusIndexer indexer = new ByBusIndexer(indexOn, date);
         indexer.startIndexing();
     }
@@ -86,16 +84,8 @@ public class Indexer {
     }
 
     private void indexByTripID() {
-        String[] date = parseDate();
+        String[] date = parseDate(rawDate);
         ByTripIDIndexer indexer = new ByTripIDIndexer(indexOn, date);
         indexer.startIndexing();
-    }
-
-    private String[] parseDate() {
-        String[] split = rawDate.split("-");
-        if(split[0].length() == 4) {
-            split[0] = split[0].substring(2);
-        }
-        return split;
     }
 }

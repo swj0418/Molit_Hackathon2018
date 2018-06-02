@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class BusParser {
     private String busID = "";
-    private Bus bus = new Bus();
+    private Bus bus;
 
     public BusParser(String busID) {
         this.busID = busID;
@@ -75,7 +75,6 @@ public class BusParser {
                     //System.out.println(lineDatum.get(21) + " Brake : " + lineDatum.get(11) + " X: " + lineDatum.get(12) + " / Y: " + lineDatum.get(13) + " Angle : " + lineDatum.get(14));
                     BusLocation location = new BusLocation(lineDatum.get(21), lineDatum.get(12), lineDatum.get(13), lineDatum.get(14));
                     System.out.println(line);
-                    bus.appendBusLocation(location);
                 }
             }
         } catch(IOException e) {

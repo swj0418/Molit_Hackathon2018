@@ -13,7 +13,7 @@ public class tripVisualizerFrame extends JFrame {
 
     tripVisualizerFrame(tripVisualizerPanel panel) {
         this.panel = panel;
-        setSize(new Dimension(10000, 10000));
+        setSize(new Dimension(1000, 1000));
         setLayout(new BorderLayout());
 
 
@@ -37,7 +37,7 @@ public class tripVisualizerFrame extends JFrame {
     }
 
     private static BufferedImage getScreenShot(Component component) {
-        BufferedImage image = new BufferedImage(10000, 10000, BufferedImage.TYPE_INT_RGB);
+        BufferedImage image = new BufferedImage(1000, 1000, BufferedImage.TYPE_INT_RGB);
         // paints into image's Graphics
         image.getGraphics().drawImage(image, 0, 0, Color.BLACK, null);
         component.paint(image.getGraphics());

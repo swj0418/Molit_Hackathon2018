@@ -19,4 +19,12 @@ public class Utilities {
         }
         return endPointPaths;
     }
+
+    public static String[] parseDate(String rawDate) {
+        String[] split = rawDate.split("-");
+        if(split[0].length() == 4) {
+            split[0] = split[0].substring(2);
+        }
+        return split;
+    }
 }
