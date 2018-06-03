@@ -116,15 +116,15 @@ public class tripVisualizerPanel extends JPanel {
 
     public void paint(Graphics g1) {
         super.paintComponent(g1);
-        //Graphics2D g = (Graphics2D)g1;
-        g1.setColor(Color.BLACK);
+        Graphics2D g = (Graphics2D)g1;
+        g.setColor(Color.BLACK);
         for(int i = 0; i < xCalibrated.size(); i++) {
             int x = Math.round(Float.parseFloat(String.valueOf(xCalibrated.get(i) / (xMinMaxDiff * 0.0001))));
             int y = Math.round(Float.parseFloat(String.valueOf(yCalibrated.get(i) / (yMinMaxDiff * 0.0001))));
             //int x = xCalibrated.get(i);
             //int y = yCalibrated.get(i);
-            System.out.println(x + "          " + y);
-            g1.fillOval(x, y, 50, 50);
+            //System.out.println(x + "          " + y);
+            g.fillOval(x, y, 50, 50);
         }
     }
 

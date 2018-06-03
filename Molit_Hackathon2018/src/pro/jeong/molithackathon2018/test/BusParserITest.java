@@ -15,7 +15,7 @@ public class BusParserITest {
      * C-21613060517080400000000
      */
     public static void main(String[] ar) {
-        BusParserI parser = new BusParserI("F:/TESTSITE/Index/", "J:/BusData", "C2783370517080308130000", "2017-08-03");
+        BusParserI parser = new BusParserI("F:/TESTSITE/Index/", "J:/BusData", "C-141667501117080308420000", "2017-08-03");
         Thread pThread = new Thread(parser);
         pThread.start();
         try {

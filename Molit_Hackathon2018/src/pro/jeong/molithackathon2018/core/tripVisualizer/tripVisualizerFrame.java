@@ -21,7 +21,7 @@ public class tripVisualizerFrame extends JFrame {
         BufferedImage image = getScreenShot(panel); // Takes a screen shot.
         saveImageToFile(image);
 
-        setVisible(true);
+        setVisible(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
