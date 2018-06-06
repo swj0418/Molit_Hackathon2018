@@ -20,7 +20,7 @@ public class ThreadedBusParserITest {
         tripIDs = tripIDRetriever.getTripIDs();
 
         int count = 0;
-        for(int i = 107; i < 129; i++) {
+        for(int i = 10800; i < 10830; i++) {
             parsers.add(new BusParserI("F:/TESTSITE/Index/", "J:/BusData/", tripIDs.get(i), "2017-08-03"));
             parserThreads.add(new Thread(parsers.get(count)));
             count++;
@@ -28,15 +28,17 @@ public class ThreadedBusParserITest {
 
         for(int i = 0; i < parserThreads.size(); i++) {
             parserThreads.get(i).start();
+            System.out.println(parserThreads.get(i).getName() + " Started");
         }
 
         try {
-            for(int i = 0; i < parserThreads.size(); i++) {
+            for (int i = 0; i < parserThreads.size(); i++) {
                 parserThreads.get(i).join();
             }
         } catch(InterruptedException e) {
             e.printStackTrace();
         }
+
 
         for(int i = 0; i < parserThreads.size(); i++) {
             buses.add(parsers.get(i).getBus());
@@ -44,10 +46,14 @@ public class ThreadedBusParserITest {
 
         long middle = System.currentTimeMillis();
 
+        ArrayList<Visualizer> visualizers = new ArrayList<>();
         for(int i = 0; i < buses.size(); i++) {
-            System.out.println(buses.get(i).getBusID());
             Visualizer tripVisualizer = new Visualizer(buses.get(i));
-            tripVisualizer.visualizeBus();
+            visualizers.add(tripVisualizer);
+        }
+
+        for(int i = 0; i < visualizers.size(); i++) {
+            visualizers.get(i).visualizeBus();
         }
 
         System.out.println("Job took " + ((middle - start) / 1000) + " seconds to process and retrieve buses\n" +

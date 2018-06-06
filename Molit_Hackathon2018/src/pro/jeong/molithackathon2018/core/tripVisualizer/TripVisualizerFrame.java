@@ -6,12 +6,12 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.Date;
 
-public class tripVisualizerFrame extends JFrame {
-    tripVisualizerPanel panel = null;
+public class TripVisualizerFrame extends JFrame {
+    TripVisualizerPanel panel = null;
+    boolean showVisualRoute = false;
 
-    tripVisualizerFrame(tripVisualizerPanel panel) {
+    TripVisualizerFrame(TripVisualizerPanel panel) {
         this.panel = panel;
         setSize(new Dimension(panel.getWidth(), panel.getHeight()));
         setLayout(new BorderLayout());

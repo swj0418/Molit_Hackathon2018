@@ -118,9 +118,9 @@ public class BusParserI implements Runnable{
             while((line = reader.readLine()) != null) {
                 if(line.startsWith(tripID)) {
                     if(!line.startsWith(tripID)) {
+                        System.out.println("BREAK");
                         break;
                     }
-
                     String split[] = line.split("\\|");
 
                     if(lineCount == 0) {
@@ -129,6 +129,8 @@ public class BusParserI implements Runnable{
                     setDynamicBusData(split);
                     setBusLocation(lineCount, split);
 
+                    String dailyDriveLength = split[7];
+                    bus.setDayDriveLength(dailyDriveLength);
                     lineCount++;
                 }
             }
@@ -148,6 +150,7 @@ public class BusParserI implements Runnable{
     ArrayList<String> runningRegion = new ArrayList<>(); // 18
     ArrayList<String> signalTime = new ArrayList<>(); // 20
     ArrayList<BusLocation> busLocations = new ArrayList<>();
+
     private void setDynamicBusData(String[] split) {
         busSpeed.add(split[9]);
         rpm.add(split[10]);
@@ -171,5 +174,6 @@ public class BusParserI implements Runnable{
         bus.setBusID(split[4]);
         bus.setCompanyID(split[5]);
         bus.setDriverID(split[6]);
+        bus.setRunningRegion(split[18]);
     }
 }

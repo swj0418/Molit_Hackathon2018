@@ -7,15 +7,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d99eadba-c52a-4189-a53f-162d2796d62e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/TripIDRetriever.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/DataServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/LatLng.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/DecryptBusData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/Demonstration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/datatype/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/datatype/Bus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer$SequentialTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer$SequentialTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer$SequentialTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer$SequentialTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/parser/BusParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/parser/BusParserI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/parser/BusParserI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/BusParserITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/BusParserITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/BusParserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/VisualizerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/VisualizerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tripVisualized_Prototype/C-141667501117080308420000_Img.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../tripVisualized_Prototype/C-141667501117080308420000_Img.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tripVisualized_Prototype/C19958573217080314560000_Img.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../tripVisualized_Prototype/C19958573217080314560000_Img.jpeg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BusParserI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java">
+      <file leaf-file-name="Bus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="1615">
+              <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TripVisualizerPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1581">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,23 +76,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tripVisualizerPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java">
+      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="132" column="47" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
+            <state relative-caret-position="527">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Indexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/Indexer.java">
+      <file leaf-file-name="DecryptBusData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/DecryptBusData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="425">
+              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadedBusParserITest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demonstration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/Demonstration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LatLng.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/LatLng.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/DataServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visualizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,72 +154,8 @@
       <file leaf-file-name="BusParserITest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="106" selection-start-line="17" selection-start-column="106" selection-end-line="17" selection-end-column="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadedBusParserITest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#510#518#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TripIDRetriever.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/TripIDRetriever.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tripVisualizerFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByCompanyIndexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByCompanyIndexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ByMethodIndexer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByMethodIndexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="459">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,10 +190,8 @@
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/frags/DatasetRearranger.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/BusLocation.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/Bus.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/TimeCreatorTest.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Generators.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/BusParser.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/BusLocation.java" />
@@ -179,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/scratchTmp" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/ByBusIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/extendingTime" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByMethodIndexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/Indexer.java" />
@@ -189,15 +213,23 @@
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/Indexer.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/IndexMerger.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/IndexManager.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java" />
-        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/TripIDRetriever.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/DecryptBusData.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerFrame.java" />
         <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/Demonstration.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerPanel.java" />
+        <option value="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/DataServer.java" />
       </list>
     </option>
   </component>
@@ -207,9 +239,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-21" />
-    <option name="y" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-161" />
+    <option name="y" value="27" />
     <option name="width" value="1932" />
     <option name="height" value="1085" />
   </component>
@@ -219,6 +251,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,6 +284,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="dataserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Molit_Hackathon2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="indexing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,32 +316,6 @@
               <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="datatype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Molit_Hackathon2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="indexer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Molit_Hackathon2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="indexer" type="462c0819:PsiDirectoryNode" />
-              <item name="by" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Molit_Hackathon2018" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="molithackathon2018" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="indexer" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Molit_Hackathon2018" type="b2602c69:ProjectViewProjectNode" />
@@ -341,9 +357,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadedBusParserITest">
+  <component name="RunManager" selected="Application.Demonstration">
     <configuration name="BusParserITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.BusParserITest" />
       <module name="Molit_Hackathon2018" />
@@ -381,8 +395,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BusParserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.BusParserTest" />
+    <configuration name="DecryptBusData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.DecryptBusData" />
+      <module name="Molit_Hackathon2018" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.jeong.molithackathon2018.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demonstration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.Demonstration" />
       <module name="Molit_Hackathon2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -405,17 +430,6 @@
     </configuration>
     <configuration name="ThreadedBusParserITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.ThreadedBusParserITest" />
-      <module name="Molit_Hackathon2018" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pro.jeong.molithackathon2018.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="VisualizerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pro.jeong.molithackathon2018.test.VisualizerTest" />
       <module name="Molit_Hackathon2018" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -467,19 +481,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.BusParserTest" />
-      <item itemvalue="Application.VisualizerTest" />
       <item itemvalue="Application.IndexingTask" />
       <item itemvalue="Application.BusParserITest" />
       <item itemvalue="Application.ThreadedBusParserITest" />
+      <item itemvalue="Application.DecryptBusData" />
+      <item itemvalue="Application.Demonstration" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demonstration" />
         <item itemvalue="Application.ThreadedBusParserITest" />
         <item itemvalue="Application.BusParserITest" />
+        <item itemvalue="Application.DecryptBusData" />
         <item itemvalue="Application.IndexingTask" />
-        <item itemvalue="Application.VisualizerTest" />
-        <item itemvalue="Application.BusParserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -503,19 +517,27 @@
       <workItem from="1527922584728" duration="14651000" />
       <workItem from="1527981912770" duration="3426000" />
       <workItem from="1527987278073" duration="598000" />
+      <workItem from="1527988597963" duration="1763000" />
+      <workItem from="1528080076569" duration="11182000" />
+      <workItem from="1528117883647" duration="495000" />
+      <workItem from="1528118538268" duration="1280000" />
+      <workItem from="1528165103680" duration="1676000" />
+      <workItem from="1528169917023" duration="3804000" />
+      <workItem from="1528183906421" duration="4294000" />
+      <workItem from="1528198064453" duration="1262000" />
+      <workItem from="1528263616522" duration="658000" />
+      <workItem from="1528280355776" duration="2504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105427000" />
+    <option name="totallyTimeSpent" value="134345000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925585" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -523,24 +545,25 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32517838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32517838" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2484375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24791667" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1559633" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925585" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,43 +574,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#510#518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="76" column="45" lean-forward="true" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/IndexingTask.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByRegionIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -607,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,14 +607,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
@@ -644,7 +625,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
@@ -665,57 +646,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java" />
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/DataReader.java" />
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/CreateBufferedReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/frags/DatasetRearranger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datasaver/BusDataSaver.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/TimeCreatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/extendingTime">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/IndexingTask.java" />
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/DataReader.java" />
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/SequentialIndexTask.java" />
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusTypeIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -723,166 +660,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByRegionIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/indexing/IndexingTask.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/DataReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/SequentialIndexTask.java" />
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Generators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Creators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/BusLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="96" column="32" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="32" />
-          <folding>
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1766#1767#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-            <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
-            <element signature="e#2293#2294#0" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2415#2416#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2006#2007#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2096#2097#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
-            <element signature="e#2196#2197#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-            <element signature="e#2451#2452#0" expanded="true" />
-            <element signature="e#2491#2492#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2570#2571#0" expanded="true" />
-            <element signature="e#2635#2636#0" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/IndexMerger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/IndexManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByMethodIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByCompanyIndexer.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java" />
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByRegionIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -893,70 +686,200 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="89" column="41" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Creators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Generators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByCompanyIndexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" />
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java" />
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/extendingTime">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/task/IndexMerger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/IndexManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/TimeCreatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/frags/DatasetRearranger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/TripIDRetriever.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java">
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="106" selection-start-line="17" selection-start-column="106" selection-end-line="17" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="2091">
+          <caret line="133" column="32" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/BusLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="132" column="47" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
+        <state relative-caret-position="136">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#510#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/DecryptBusData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="158" column="15" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/utils/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/Demonstration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/LatLng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/DataServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

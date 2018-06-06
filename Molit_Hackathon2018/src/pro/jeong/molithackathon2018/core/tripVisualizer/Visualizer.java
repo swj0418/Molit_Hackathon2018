@@ -3,17 +3,18 @@ package pro.jeong.molithackathon2018.core.tripVisualizer;
 import pro.jeong.molithackathon2018.data.datatype.Bus;
 
 public class Visualizer {
-    Bus bus = null;
+    // GOOGLE MAPS API : AIzaSyD13Ez7i4xfcT-pWQWW3hXyjU-RyxyCYco
+    private Bus bus = null;
 
-    private tripVisualizerFrame frame = null;
-    private tripVisualizerPanel panel = null;
+    private TripVisualizerFrame frame = null;
+    private TripVisualizerPanel panel = null;
 
     public Visualizer(Bus bus) {
         this.bus = bus;
+        this.panel = new TripVisualizerPanel(bus);
     }
 
     public void visualizeBus() {
-        tripVisualizerPanel panel = new tripVisualizerPanel(bus);
-        new tripVisualizerFrame(panel);
+        this.frame = new TripVisualizerFrame(panel);
     }
 }

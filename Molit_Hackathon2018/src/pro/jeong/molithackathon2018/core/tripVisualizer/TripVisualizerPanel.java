@@ -1,6 +1,5 @@
 package pro.jeong.molithackathon2018.core.tripVisualizer;
 
-import jdk.jshell.execution.Util;
 import pro.jeong.molithackathon2018.data.datatype.Bus;
 import pro.jeong.molithackathon2018.data.datatype.BusLocation;
 import pro.jeong.molithackathon2018.utils.Utilities;
@@ -8,9 +7,8 @@ import pro.jeong.molithackathon2018.utils.Utilities;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
-import java.util.Set;
 
-public class tripVisualizerPanel extends JPanel {
+public class TripVisualizerPanel extends JPanel {
     Bus bus = null;
     ArrayList<BusLocation> busLocations = new ArrayList<BusLocation>();
 
@@ -34,7 +32,8 @@ public class tripVisualizerPanel extends JPanel {
     int xMinMaxDiff = 0;
     int yMinMaxDiff = 0;
 
-    tripVisualizerPanel(Bus bus) {
+    TripVisualizerPanel(Bus bus) {
+        System.out.println("Trip Visualizer Panel Contructor Called");
         this.bus = bus;
         busLocations = bus.getBusLocation();
 
@@ -60,8 +59,8 @@ public class tripVisualizerPanel extends JPanel {
             int x = Integer.parseInt(bus.getBusX(i));
             int y = Integer.parseInt(bus.getBusY(i));
             if(x != 0 && y != 0 && x > xThreshold && y > yThreshold) {
-                xCoordinates.add(Integer.parseInt(bus.getBusX(i)));
-                yCoordinates.add(Integer.parseInt(bus.getBusY(i)));
+                xCoordinates.add(Integer.parseInt(bus.getBusX(i).substring(3)));
+                yCoordinates.add(Integer.parseInt(bus.getBusY(i).substring(3)));
             }
         }
     }
@@ -121,20 +120,7 @@ public class tripVisualizerPanel extends JPanel {
         for(int i = 0; i < xCalibrated.size(); i++) {
             int x = Math.round(Float.parseFloat(String.valueOf(xCalibrated.get(i) / (xMinMaxDiff * 0.0001))));
             int y = Math.round(Float.parseFloat(String.valueOf(yCalibrated.get(i) / (yMinMaxDiff * 0.0001))));
-            //int x = xCalibrated.get(i);
-            //int y = yCalibrated.get(i);
-            //System.out.println(x + "          " + y);
             g.fillOval(x, y, 50, 50);
         }
-    }
-
-
-
-    private int TransformLocation(String loc) {
-        double location = (double)Integer.valueOf(loc.substring(3));
-        location = location / 1000;
-        //location = Math.ceil(location);
-        int retInt = (int)location;
-        return retInt;
     }
 }

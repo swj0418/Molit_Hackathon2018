@@ -1,10 +1,8 @@
 package pro.jeong.molithackathon2018.data.indexer.by;
-import pro.jeong.molithackathon2018.data.indexer.SQLStatementCreator;
 import pro.jeong.molithackathon2018.utils.Creators;
 import pro.jeong.molithackathon2018.utils.Utilities;
 
 import java.io.*;
-import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 

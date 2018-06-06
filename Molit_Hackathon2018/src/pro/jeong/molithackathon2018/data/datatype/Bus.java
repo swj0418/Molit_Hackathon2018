@@ -15,6 +15,8 @@ public class Bus {
     private String driverID = "";
     private String dayDriveLength = "";
     private String accumulatedDriveLength = "";
+    private String runningRegion = "";
+    private int busLocationSize = 0;
 
     private ArrayList<String> busSpeed = new ArrayList<>();
     private ArrayList<String> rpm = new ArrayList<>();
@@ -28,6 +30,10 @@ public class Bus {
 
     public ArrayList<BusLocation> getBusLocation() {
         return location;
+    }
+
+    public String getRunningRegion() {
+        return runningRegion;
     }
 
     public String getBusX(int seq) {
@@ -154,5 +160,7 @@ public class Bus {
         this.location = location;
     }
 
-
+    public void setRunningRegion(String runningRegion) {
+        this.runningRegion = runningRegion;
+    }
 }
