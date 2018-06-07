@@ -7,43 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d99eadba-c52a-4189-a53f-162d2796d62e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/DataServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/LatLng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/DecryptBusData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/Demonstration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/datatype/Bus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/datatype/Bus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer$SequentialTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer$SequentialTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer$SequentialTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer$SequentialTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/parser/BusParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/parser/BusParserI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/data/parser/BusParserI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/BusParserITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/BusParserITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/BusParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/VisualizerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Molit_Hackathon2018/pro/jeong/molithackathon2018/test/VisualizerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/Visualizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/tripVisualizerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/tripVisualizer/TripVisualizerPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/datatype/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/SQLStatementCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByBusIndexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/indexer/by/ByTripIDIndexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/data/parser/BusParserI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/deprecated_code_archive/index_by_obsolete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/BusParserTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/ThreadedBusParserITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/VisualizerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tripVisualized_Prototype/C-141667501117080308420000_Img.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../tripVisualized_Prototype/C-141667501117080308420000_Img.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tripVisualized_Prototype/C19958573217080314560000_Img.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../tripVisualized_Prototype/C19958573217080314560000_Img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogisticsNet/datasets/Avg_Speed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogisticsNet/datasets/Avg_Speed_Extracted.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogisticsNet/datasets/Route.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogisticsNet/datasets/Speed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogisticsNet/datasets/Volume.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +80,8 @@
       <file leaf-file-name="Demonstration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/Demonstration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="289">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,8 +101,8 @@
       <file leaf-file-name="DataServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/DataServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="221">
+              <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -239,7 +207,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-161" />
     <option name="y" value="27" />
     <option name="width" value="1932" />
@@ -252,7 +220,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,7 +325,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -527,14 +495,16 @@
       <workItem from="1528198064453" duration="1262000" />
       <workItem from="1528263616522" duration="658000" />
       <workItem from="1528280355776" duration="2504000" />
+      <workItem from="1528328281282" duration="762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134345000" />
+    <option name="totallyTimeSpent" value="135107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -549,7 +519,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24791667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24739583" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -559,11 +529,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925585" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1559633" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32925585" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -859,8 +826,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/test/Demonstration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -876,8 +843,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pro/jeong/molithackathon2018/core/dataserver/DataServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="221">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
