@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-KR">
 <head>
     <meta charset="UTF-8">
     <title>VIEW POLL</title>
-</head>
-<body>
-    <script type="text/javascript">
 
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 80%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+        button {
+            color: whitesmoke;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: black">
+    <div id="map"></div>
+
+    <script type="text/javascript">
+        let map;
+        let markerCount = 0;
+        let markerList = [];
+
+        function initMap() {
+            let origin = {lat: 37.516904, lng: 126.985017};
+            let content = "l;fkasdjflaje";
+
+            let infoWindow = new google.maps.InfoWindow({
+                content: content,
+                maxWidth: 200
+            });
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: origin,
+                zoom: 13
+            });
+
+            map.addListener('click', function (e) {
+
+            });
+        }
+
+        function readTextFile(file) {
+            let rawFile = new XMLHttpRequest();
+            rawFile.open("GET", file, false);
+            rawFile.onreadystatechange = function() {
+                if(rawFile.readyState == 4) {
+                    if(rawFile.status == 200 || rawFile.status == 0) {
+                        let allText = rawFile.responseText;
+                        alert(allText);
+                    }
+                }
+            }
+        }
     </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZxFTSoOUBkwfpoNWPg4s6mn0RjKWLrbo&callback=initMap"
+    async defer></script>
+
+    <button onclick="readTextFile(new File("F:/"))"> PRESS ME ! </button>
 </body>
 </html>

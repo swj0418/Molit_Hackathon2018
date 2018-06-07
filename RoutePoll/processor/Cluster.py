@@ -1,4 +1,6 @@
 from Coordinate import Coordinate
+
+
 class Cluster:
     mainCluster: bool
     front: bool

@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 class BusPath:
     frontCluster: Cluster
     endCluster: Cluster
+
     clusters = [Cluster]
 
     def __init__(self, frontCluster: Cluster, endCluster: Cluster):
@@ -42,7 +43,3 @@ class BusPath:
         longitudeE = longitudeE[0].string
         latitudeF = latitudeF[0].string
         latitudeE = latitudeE[0].string
-
-        self.frontCluster.busStopCoordinate = Coordinate(latitudeF, longitudeF)
-        self.endCluster.busStopCoordinate = Coordinate(latitudeF, longitudeE)
-

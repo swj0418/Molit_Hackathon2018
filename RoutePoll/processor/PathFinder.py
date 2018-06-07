@@ -66,6 +66,17 @@ class PathFinder:
                     clusters[k].front = True
                     clusters[k].occupied = True
                     busPaths.append(BusPath(clusters[k], clusters[end]))
+                    break
+
+        print("========================== Initial Bus Paths Created ==========================")
+
+        with open("F:\\PUBLIC\\Project\\Molit_Hackathon2018\\RoutePoll\\ServerDatabase\\BusPath.csv", encoding="UTF-8", mode="w+") as file:
+            for idx in range(len(busPaths)):
+                file.write(busPaths[idx].frontCluster.clusterID.__str__() + "," + busPaths[idx].frontCluster.isHeadedTo().__str__()
+                           + "," + busPaths[idx].frontCluster.busStopCoordinate.latitude
+                           + "," + busPaths[idx].frontCluster.busStopCoordinate.longitude + "," +
+                           busPaths[idx].endCluster.busStopCoordinate.latitude + "," +
+                           busPaths[idx].endCluster.busStopCoordinate.longitude + "\n")
 
 
     def plot(self, tmpList, labels):
