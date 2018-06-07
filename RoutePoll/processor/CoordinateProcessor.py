@@ -17,7 +17,7 @@ class Coordinate:
         self.toCoord = str(self.toCoord).replace("(", "").replace(")", "")
 
     def writeData(self):
-        parent = Path.getcwd().parent + "\\ServerDatabase\\"
+        parent = Path.getcwd() + "\\ServerDatabase\\"
         if os.path.exists(parent) is not True:
             os.mkdir(parent)
 
