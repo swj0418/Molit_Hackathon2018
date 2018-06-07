@@ -32,8 +32,29 @@
         padding-left: 10px;
       }
 
-      #submit {
-          height: 5%;
+      #form {
+          height: 10%;
+      }
+
+      #form div {
+          height: 40%;
+          background-color: black;
+          color: whitesmoke;
+      }
+
+      #formShown {
+          background-color: black;
+          color: whitesmoke;
+          height: 60%;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+      }
+
+      #form-submit{
+          background-color: black;
+          color: whitesmoke;
+          height: 40%;
           width: 100%;
           margin: 0;
           padding: 0;
@@ -48,27 +69,33 @@
     <div id="map"></div>
 
     <script type="text/javascript">
-        var map;
-        var markerCount = 0;
-        var markerList = [];
+        let map;
+        let markerCount = 0;
+        let markerList = [];
 
         function initMap() {
-            var origin = {lat: 37.527963, lng: 126.760848};
-            var contentString = 'safl;kjsadlf;kajsd';
-            var infoWindow = new google.maps.InfoWindow({
-                content: contentString,
+            let origin = {lat: 37.516904, lng: 126.985017};
+            let content = 'AAAAA';
+
+            let infoWindow = new google.maps.InfoWindow({
+                content: content,
                 maxWidth: 200
             });
 
-          map = new google.maps.Map(document.getElementById('map'), {
+            map = new google.maps.Map(document.getElementById('map'), {
               center: origin,
-              zoom: 16
-          });
+              zoom: 13
+            });
 
           map.addListener('click', function(e) {
               if(markerList.length < 2) {
                    placeMarker(e.latLng);
-                   let infoWindow = new InfoWindow(e.latLng);
+                   if(markerCount == 0) {
+                       document.getElementById("from_input").value = e.latLng;
+                   } else if(markerCount == 1) {
+                       document.getElementById("to_input").value = e.latLng;
+                   }
+                   markerCount++;
               } else {
                   google.maps.event.addDomListener(mapDiv, 'click', function() {
                       window.alert("Maximum marker reached.")
@@ -106,6 +133,8 @@
             clearMarkers();
             markerList = [];
             markerCount = 0
+            document.getElementById("from_input").value = "";
+            document.getElementById("to_input").value = "";
         }
 
         function showConfirmPage() {
@@ -128,7 +157,7 @@
         }
 
         function printThis(value) {
-            let window = window.opne("", "", 'height = 150, width = 400');
+            let window = window.open("", "", 'height = 150, width = 400');
             window.document.write(value);
             if(window.focus) {
                 window.focus;
@@ -139,13 +168,41 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZxFTSoOUBkwfpoNWPg4s6mn0RjKWLrbo&callback=initMap"
     async defer></script>
+
     <br>
     <br>
     <hr>
-    <br>
-    <br>
-    <button id="submit" onclick="showConfirmPage()" style="color:whitesmoke; background-color: black">
+
+    <!--
+    <button id="submit" onclick="sendCoordinatesToDataServer()" style="color:whitesmoke; background-color: black">
         SUBMIT
     </button>
+    -->
+
+    <form id="form" action="{% url 'pollpost' %}" method="post">
+        {% csrf_token %}
+
+        <div>
+            <tr>
+                <td>
+                    <label for="fromCoord">From :</label>
+                </td>
+                <td>
+                    <input id="from_input" type="text" name="from_input" value="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="toCoord">To :</label>
+                </td>
+                <td>
+                    <input id="to_input" type="text" name="to_input" value="">
+                </td>
+            </tr>
+        </div>
+
+        <input id="form-submit" type="submit" value="SUBMIT">
+    </form>
 </body>
 </html>
