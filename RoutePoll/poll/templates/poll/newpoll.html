@@ -87,8 +87,9 @@
             });
 
           map.addListener('click', function(e) {
+              placeMarker(e.latLng);
               if(markerList.length < 2) {
-                   placeMarker(e.latLng);
+                   //placeMarker(e.latLng);
                    if(markerCount == 0) {
                        document.getElementById("from_input").value = e.latLng;
                    } else if(markerCount == 1) {

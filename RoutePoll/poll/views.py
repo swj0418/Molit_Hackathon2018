@@ -35,3 +35,7 @@ def pollpost(request):
 
 def viewpoll(request):
     return render(request, 'poll/viewpoll.html')
+
+def busdata(request):
+    file = open("F:/PUBLIC/Project/Molit_Hackathon2018/RoutePoll/ServerDatabase/BusPath.csv")
+    return file

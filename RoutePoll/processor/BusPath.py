@@ -43,3 +43,8 @@ class BusPath:
         longitudeE = longitudeE[0].string
         latitudeF = latitudeF[0].string
         latitudeE = latitudeE[0].string
+
+        fc = Coordinate(latitudeF, longitudeF)
+        ec = Coordinate(latitudeE, longitudeE)
+        self.frontCluster.busStopCoordinate = fc
+        self.endCluster.busStopCoordinate = ec
